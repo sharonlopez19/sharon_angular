@@ -1,0 +1,45 @@
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+  <div class="container">
+   
+    <div class="card p-3">
+      <h3 class="text-center">Calculadora</h3>
+    
+      <div class="mb-3">
+        <input type="text" id="display" class="form-control text-center" disabled>
+      </div>
+    
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('1')">1</button></td>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('2')">2</button></td>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('3')">3</button></td>
+            <td><button class="btn btn-warning w-100" onclick="appendToDisplay('+')">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('4')">4</button></td>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('5')">5</button></td>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('6')">6</button></td>
+            <td><button class="btn btn-warning w-100" onclick="appendToDisplay('-')">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('7')">7</button></td>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('8')">8</button></td>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('9')">9</button></td>
+            <td><button class="btn btn-warning w-100" onclick="appendToDisplay('*')">*</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn btn-secondary w-100" onclick="appendToDisplay('0')">0</button></td>
+            <td><button class="btn btn-danger w-100" onclick="clearDisplay()">C</button></td>
+            <td><button class="btn btn-success w-100" onclick="calculateResult()">=</button></td>
+            <td><button class="btn btn-warning w-100" onclick="appendToDisplay('/')">/</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
